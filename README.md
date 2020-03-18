@@ -36,12 +36,12 @@ This command would help you to add a new template to the `templates.json`, which
 $ xdja add
 
 ? Set the custom name of the template: my-first-template
-? Owner/name of the template: jrainlau/xdja
+? Owner/name of the template: codingfuns/xdja
 ? Branch of the template: new
 ┌───────────────────┬────────────────┬────────┐
 │ Template Name     │ Owner/Name     │ Branch │
 ├───────────────────┼────────────────┼────────┤
-│ my-first-template │ jrainlau/xdja │ new    │
+│ my-first-template │ codingfuns/xdja │ new    │
 └───────────────────┴────────────────┴────────┘
 ✔ New template has been added successfully!
 ```
@@ -55,9 +55,9 @@ $ xdja list
 ┌────────────────────┬────────────────┬────────┐
 │ Template Name      │ Owner/Name     │ Branch │
 ├────────────────────┼────────────────┼────────┤
-│ my-first-template  │ jrainlau/xdja │ new    │
+│ my-first-template  │ codingfuns/xdja │ new    │
 ├────────────────────┼────────────────┼────────┤
-│ my-second-template │ jrainlau/motto │ master │
+│ my-second-template │ codingfuns/motto │ master │
 └────────────────────┴────────────────┴────────┘
 ```
 
@@ -85,7 +85,7 @@ $ xdja delete
 ┌───────────────────┬────────────────┬────────┐
 │ Template Name     │ Owner/Name     │ Branch │
 ├───────────────────┼────────────────┼────────┤
-│ my-first-template │ jrainlau/xdja │ new    │
+│ my-first-template │ wj/xdja │ new    │
 └───────────────────┴────────────────┴────────┘
 ✔ Template has been deleted successfully
 ```
