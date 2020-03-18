@@ -1,14 +1,14 @@
 {
-  "name": "xdja-cli",
+  "name": "funny-cli",
   "version": "1.0.1",
   "description": "project cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "xdja": "bin/xdja"
+    "funny": "bin/funny"
   },
-  "url": "https://github.com/codingfuns/xdja",
+  "url": "https://github.com/codingfuns/funny",
   "email": "2572400523@qq.com",
   "author": {
     "name": "wj",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codingfuns/xdja.git"
+    "url": "https://github.com/codingfuns/funny.git"
   },
   "license": "ISC",
   "dependencies": {

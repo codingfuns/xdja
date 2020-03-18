@@ -1,25 +1,25 @@
-# xdja
+# funny
 A light tool to generate projects in an easy way.
 
 # Installation
 ```
-npm install xdja-cli -g
+npm install funny-cli -g
 ```
 
 ```
 
 # Usage
-Open your terminal and type `xdja` or `xdja -h` , you'll see the help infomation below:
+Open your terminal and type `funny` or `funny -h` , you'll see the help infomation below:
 ```
-  Usage: xdja <command>
+  Usage: funny <command>
 
 
   Commands:
 
     add|a      Add a new template
     list|l     List all the templates
-    init|i     Generate a new project
-    delete|d   Delete a template
+    init|i     Create a new project
+    delete|d   Delete template
 
   Options:
 
@@ -31,31 +31,31 @@ Open your terminal and type `xdja` or `xdja -h` , you'll see the help infomation
 
 # Commands
 ### add | a
-This command would help you to add a new template to the `templates.json`, which will be used by `xdja` to generate projects.
+This command would help you to add a new template to the `templates.json`, which will be used by `funny` to generate projects.
 ```
-$ xdja add
+$ funny add
 
 ? Set the custom name of the template: my-first-template
-? Owner/name of the template: codingfuns/xdja
+? Owner/name of the template: codingfuns/funny
 ? Branch of the template: new
 ┌───────────────────┬────────────────┬────────┐
 │ Template Name     │ Owner/Name     │ Branch │
 ├───────────────────┼────────────────┼────────┤
-│ my-first-template │ codingfuns/xdja │ new    │
+│ my-first-template │ codingfuns/funny │ new    │
 └───────────────────┴────────────────┴────────┘
 ✔ New template has been added successfully!
 ```
-`xdja` use [download-git-repo](https://github.com/flipxfx/download-git-repo) to down load git repos. After answering 3 questions, you'll add a new template to `xdja`.
+`funny` use [download-git-repo](https://github.com/flipxfx/download-git-repo) to down load git repos. After answering 3 questions, you'll add a new template to `funny`.
 
 ### list | l
 It shows you the templates list.
 ```
-$ xdja list
+$ funny list
 
 ┌────────────────────┬────────────────┬────────┐
 │ Template Name      │ Owner/Name     │ Branch │
 ├────────────────────┼────────────────┼────────┤
-│ my-first-template  │ codingfuns/xdja │ new    │
+│ my-first-template  │ codingfuns/funny │ new    │
 ├────────────────────┼────────────────┼────────┤
 │ my-second-template │ codingfuns/motto │ master │
 └────────────────────┴────────────────┴────────┘
@@ -64,7 +64,7 @@ $ xdja list
 ### init | i
 After adding new templates, you could use this command to generate your own project by choosing template.
 ```
-$ xdja init
+$ funny init
 
 ? Template name: my-first-template
 ? Project name: my-project
@@ -79,22 +79,22 @@ It's easy, right?
 ### delete | d
 To delete a template, you could use this command:
 ```
-$ xdja delete
+$ funny delete
 
 ? Which template you want to delete? my-second-template
 ┌───────────────────┬────────────────┬────────┐
 │ Template Name     │ Owner/Name     │ Branch │
 ├───────────────────┼────────────────┼────────┤
-│ my-first-template │ wj/xdja │ new    │
+│ my-first-template │ wj/funny │ new    │
 └───────────────────┴────────────────┴────────┘
 ✔ Template has been deleted successfully
 ```
 
 # Template
-The most important part of xdja is `template`. All templates' infomation were list in the `templates.json`.
+The most important part of funny is `template`. All templates' infomation were list in the `templates.json`.
 A template means a project sample, which has a simple or complex file structure.
 
-You can create your own templates repository, and push your templates in different branches. All you need to do then is to add the templates into xdja's `templates.json`.
+You can create your own templates repository, and push your templates in different branches. All you need to do then is to add the templates into funny's `templates.json`.
 
 # License
 MIT.
