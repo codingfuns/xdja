@@ -1,5 +1,5 @@
 {
-  "name": "ftmay",
+  "name": "xdjacli",
   "version": "1.0.1",
   "description": "project cli",
   "scripts": {
@@ -8,7 +8,7 @@
   "bin": {
     "xdja": "bin/xdja"
   },
-  "url": "https://github.com/codingfuns/",
+  "url": "https://github.com/codingfuns/xdja",
   "email": "ay12580233@gmail.com",
   "author": {
     "name": "anyao",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ay233/ftmay.git"
+    "url": "https://github.com/codingfuns/xdja.git"
   },
   "license": "ISC",
   "dependencies": {
